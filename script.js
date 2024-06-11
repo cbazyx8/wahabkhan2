@@ -56,7 +56,7 @@ function executeCommand(command) {
     output.textContent = prompt + command;
     outputElement.appendChild(output);
 
-    if (command === 'clear') {
+    if (command === 'Clear') {
         outputElement.innerHTML = '';
     } else {
         const response = document.createElement('div');
