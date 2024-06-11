@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const letters = 'Wahab khan Wahab khan';
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%';
 const fontSize = 16;
 const columns = canvas.width / fontSize;
 
@@ -39,14 +39,14 @@ const commandInput = document.getElementById('command');
 const prompt = '> ';
 
 const commands = {
-    help: 'Available commands: <span class="command-output">Help, About, Projects, Skills, Contact, Clear</span>',
+    help: 'Available commands: <span class="command-output">help, about, projects, skills, contact, clear</span>',
     About: '<span class="command-output">I am Wahab Khan, a hacker and developer with expertise in various technologies.</span>',
     Projects: `<ul class="projects command-output">
         <li class="project-item">Password Generator - <button onclick="window.open('https://wahabkhaan.github.io/PasswordGenerator/', '_blank')">Click Me</button></li>
         <li class="project-item">Code Snippets - <button onclick="window.open('https://wahabkhaan.github.io/JavaCodeSnippets/', '_blank')">Click Me</button></li>
-        <li class="project-item">Number Convertor - <button onclick="window.open('https://wahabkhaan.github.io/NumberConvertor/', '_blank')">Click Me</button></li>,
-    <li class="project-item">Random QuotesGen- <button onclick="window.open('https://wahabkhaan.github.io/QuotesGen/', '_blank')">Click Me</button></li>
-</ul>`,
+        <li class="project-item">Number Convertor - <button onclick="window.open('https://wahabkhaan.github.io/NumberConvertor/', '_blank')">Click Me</button></li>
+        <li class="project-item">Random QuotesGen- <button onclick="window.open('https://wahabkhaan.github.io/QuotesGen/', '_blank')">Click Me</button></li>
+    </ul>`,
     Skills: '<span class="command-output">Skills: JavaScript, Java, Python, C++, HTML, CSS, SQL, Machine Learning, Cybersecurity</span>',
     Contact: '<span class="command-output">Contact me at: programming.spott@gmail.com</span>',
     Clear: '',
