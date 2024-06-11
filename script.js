@@ -39,7 +39,7 @@ const commandInput = document.getElementById('command');
 const prompt = '> ';
 
 const commands = {
-    Help: 'Available commands: <span class="command-output">Help, About, Projects, Skills, Contact, Clear</span>',
+    help: 'Available commands: <span class="command-output">Help, About, Projects, Skills, Contact, Clear</span>',
     About: '<span class="command-output">I am Wahab Khan, a hacker and developer with expertise in various technologies.</span>',
     Projects: `<ul class="projects command-output">
         <li class="project-item">Password Generator - <button onclick="window.open('https://wahabkhaan.github.io/PasswordGenerator/', '_blank')">Click Me</button></li>
@@ -81,7 +81,7 @@ function initializeTerminal() {
     output.className = 'welcome';
     outputElement.appendChild(output);
 
-    executeCommand('Help');
+    executeCommand('help');
 }
 
 commandInput.addEventListener('keydown', (event) => {
