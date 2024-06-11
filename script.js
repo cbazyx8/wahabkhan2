@@ -46,6 +46,7 @@ const commands = {
         <li class="project-item">Code Snippets - <button onclick="window.open('https://wahabkhaan.github.io/JavaCodeSnippets/', '_blank')">Click Me</button></li>
         <li class="project-item">Number Convertor - <button onclick="window.open('https://wahabkhaan.github.io/NumberConvertor/', '_blank')">Click Me</button></li>
     </ul>`,
+<li class="project-item">Code Snippets - <button onclick="window.open('https://wahabkhaan.github.io/JavaCodeSnippets/', '_blank')">Click Me</button></li>,
     Skills: '<span class="command-output">Skills: JavaScript, Java, Python, C++, HTML, CSS, SQL, Machine Learning, Cybersecurity</span>',
     Contact: '<span class="command-output">Contact me at: programming.spott@gmail.com</span>',
     Clear: '',
