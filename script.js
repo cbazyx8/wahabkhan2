@@ -44,9 +44,10 @@ const commands = {
     Projects: `<ul class="projects command-output">
         <li class="project-item">Password Generator - <button onclick="window.open('https://wahabkhaan.github.io/PasswordGenerator/', '_blank')">Click Me</button></li>
         <li class="project-item">Code Snippets - <button onclick="window.open('https://wahabkhaan.github.io/JavaCodeSnippets/', '_blank')">Click Me</button></li>
-        <li class="project-item">Number Convertor - <button onclick="window.open('https://wahabkhaan.github.io/NumberConvertor/', '_blank')">Click Me</button></li>
-    </ul>`,
-<li class="project-item">Random QuotesGen- <button onclick="window.open('https://wahabkhaan.github.io/QuotesGen/', '_blank')">Click Me</button></li>,
+        <li class="project-item">Number Convertor - <button onclick="window.open('https://wahabkhaan.github.io/NumberConvertor/', '_blank')">Click Me</button></li>,
+    
+<li class="project-item">Random QuotesGen- <button onclick="window.open('https://wahabkhaan.github.io/QuotesGen/', '_blank')">Click Me</button></li>
+</ul>`,
     Skills: '<span class="command-output">Skills: JavaScript, Java, Python, C++, HTML, CSS, SQL, Machine Learning, Cybersecurity</span>',
     Contact: '<span class="command-output">Contact me at: programming.spott@gmail.com</span>',
     Clear: '',
