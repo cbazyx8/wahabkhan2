@@ -39,7 +39,7 @@ const commandInput = document.getElementById('command');
 const prompt = '> ';
 
 const commands = {
-    help: 'Available commands: <span class="command-output">help, about, projects, skills, contact, clear</span>',
+    help: 'Available commands: <span class="command-output">help, About, Projects, Skills, Contact, Clear</span>',
     About: '<span class="command-output">I am Wahab Khan, a hacker and developer with expertise in various technologies.</span>',
     Projects: `<ul class="projects command-output">
         <li class="project-item">Password Generator - <button onclick="window.open('https://wahabkhaan.github.io/PasswordGenerator/', '_blank')">Click Me</button></li>
