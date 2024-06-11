@@ -1,0 +1,102 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#terminal {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #00ff00;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #00ff00;
+    z-index: 1;
+}
+
+#output {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+#input-line {
+    display: flex;
+}
+
+#prompt {
+    margin-right: 10px;
+}
+
+#command {
+    background-color: #111;
+    border: none;
+    color: #00ff00;
+    flex-grow: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+#command:focus {
+    outline: none;
+}
+
+button {
+    background-color: #111;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: #111;
+}
+
+.welcome {
+    color: #ff0000; /* Red color for welcome message */
+}
+
+.command-output {
+    color: #00ffff; /* Cyan color for command output */
+}
+
+.command-error {
+    color: #ff0000; /* Red color for command errors */
+}
+
+.projects {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item {
+    margin-bottom: 15px;
+}
+
+.project-item button {
+    margin-left: 10px;
+    margin-top: 5px;
+}
