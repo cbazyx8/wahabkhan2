@@ -81,7 +81,7 @@ function initializeTerminal() {
     output.className = 'welcome';
     outputElement.appendChild(output);
 
-    executeCommand('help');
+    executeCommand('Help');
 }
 
 commandInput.addEventListener('keydown', (event) => {
