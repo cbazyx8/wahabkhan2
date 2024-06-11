@@ -39,16 +39,16 @@ const commandInput = document.getElementById('command');
 const prompt = '> ';
 
 const commands = {
-    help: 'Available commands: <span class="command-output">Help, About, Projects, Skills, Contact, Clear</span>',
-    about: '<span class="command-output">I am Wahab Khan, a hacker and developer with expertise in various technologies.</span>',
-    projects: `<ul class="projects command-output">
+    Help: 'Available commands: <span class="command-output">Help, About, Projects, Skills, Contact, Clear</span>',
+    About: '<span class="command-output">I am Wahab Khan, a hacker and developer with expertise in various technologies.</span>',
+    Projects: `<ul class="projects command-output">
         <li class="project-item">Password Generator - <button onclick="window.open('https://wahabkhaan.github.io/PasswordGenerator/', '_blank')">Click Me</button></li>
         <li class="project-item">Code Snippets - <button onclick="window.open('https://wahabkhaan.github.io/JavaCodeSnippets/', '_blank')">Click Me</button></li>
         <li class="project-item">Number Convertor - <button onclick="window.open('https://wahabkhaan.github.io/NumberConvertor/', '_blank')">Click Me</button></li>
     </ul>`,
     skills: '<span class="command-output">Skills: JavaScript, Java, Python, C++, HTML, CSS, SQL, Machine Learning, Cybersecurity</span>',
-    contact: '<span class="command-output">Contact me at: programming.spott@gmail.com</span>',
-    clear: '',
+    Contact: '<span class="command-output">Contact me at: programming.spott@gmail.com</span>',
+    Clear: '',
 };
 
 function executeCommand(command) {
